@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Project from "./project";
+import Project from "./Project";
 import type { TProject } from "./type";
 
 type TProjectListProps = {

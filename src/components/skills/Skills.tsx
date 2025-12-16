@@ -1,15 +1,6 @@
 import { motion } from "framer-motion";
 import useSkills from "../../hook/useSkills";
 
-const containerVarients = {
-  hidden: {},
-  show: {
-    transition: {
-      staggerChildren: 0.3,
-    },
-  },
-};
-
 const Skills = () => {
   const { skillCategories, getColorClasses } = useSkills();
 
