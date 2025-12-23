@@ -84,7 +84,7 @@ const Home = () => {
                 />
               </a>
               <a
-                href="/public/Junior_Reactjs_Ahmed_Eliewa.pdf"
+                href="/Ahmed_Eliewa.pdf"
                 download="Ahmed Eliewa CV"
                 className="cursor-pointer flex capitalize items-center gap-2 py-3 px-6 bg-gray-900 text-white border-2  rounded-full hover:bg-gray-700  transition-all duration-300 font-medium "
               >
