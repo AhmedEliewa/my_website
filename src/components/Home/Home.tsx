@@ -76,7 +76,7 @@ const Home = () => {
               Front-End Developer specializing in React & TypeScript
             </motion.p>
             <div className=" flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a className="cursor-pointer group capitalize py-3 px-6 flex items-center gap-2 font-medium bg-transparent text-black rounded-full border-2 border-black hover:bg-black hover:text-white transition-all duration-300">
+              <a href="#projects" className="cursor-pointer group capitalize py-3 px-6 flex items-center gap-2 font-medium bg-transparent text-black rounded-full border-2 border-black hover:bg-black hover:text-white transition-all duration-300">
                 view projects
                 <FaArrowRightLong
                   size={19}
