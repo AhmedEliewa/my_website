@@ -27,6 +27,7 @@ const Project = ({
         <img src={img} alt={title} className="w-full h-full object-cover" />
         <span className="w-full h-full bg-gray-100 opacity-70 md:opacity-0 group-hover:opacity-80 duration-500 absolute top-0 left-0 flex items-center justify-center gap-5">
           <a
+            target="_blank"
             href={githubUrl}
             className="p-2 shadow-md bg-gray-900 text-white rounded-full"
           >
@@ -34,6 +35,7 @@ const Project = ({
           </a>
           {liveUrl && (
             <a
+              target="_blank"
               href={liveUrl}
               className="p-2 shadow-md bg-gray-900 text-white rounded-full"
             >
