@@ -3,7 +3,7 @@
 Frontend Developer focused on building modern, responsive, and high-performance web applications using **React.js**.
 
 🌐 **Live Portfolio:**  
-https://ahmed3liewa.netlify.app/
+[live demo](https://ahmed3liewa.netlify.app/)
 
 ## 🚀 screen shot
 <img src='./public/screenshots/home.jpg'  width="450" />
@@ -49,3 +49,11 @@ Some of the projects I’ve worked on:
 ---
 
 ⭐ If you find my work helpful, feel free to star my repositories.
+
+
+## Install dependencies    
+
+- npm install
+
+## Start development server
+- http://localhost:5173
