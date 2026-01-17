@@ -101,7 +101,7 @@ const Home = () => {
               </a>
               <a
                 className="p-3 hover:text-blue-600 rounded-full bg-[#8ba1a14d] hover:shadow-black hover:shadow-xl hover:scale-110 transition duration-300"
-                href="https://www.linkedin.com/in/ahmed-eliewa-88b569387/"
+                href="https://www.linkedin.com/in/ahmed-eliewa16/"
                 target="_blank"
               >
                 <FaLinkedinIn size={19} />
