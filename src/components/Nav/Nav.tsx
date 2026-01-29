@@ -13,15 +13,22 @@ const navItems = [
 const Nav = () => {
   const [isScroll, setIsScroll] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [isActive, setIsActive] = useState(window.location.hash || "#home");
 
   const handleScroll = () => {
     setIsScroll(window.scrollY > 0);
   };
 
+  const hashchange = () => {
+    setIsActive(window.location.hash || "#home");
+  };
+
   useEffect(() => {
+    window.addEventListener("hashchange", hashchange);
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("hashchange", hashchange);
     };
   }, []);
 
@@ -33,7 +40,7 @@ const Nav = () => {
     >
       <div className="flex justify-between items-center p-4 sm:px-6 max-w-7xl mx-auto h-16 ">
         <div className="first-letter:text-2xl font-[cursive] hover:scale-110 transition duration-500">
-          <a href="#home">A.3liewa</a>
+          <a href="/">A.3liewa</a>
         </div>
         <ul className="hidden md:flex gap-4 ">
           {navItems.map((item) => (
@@ -41,10 +48,16 @@ const Nav = () => {
               key={item.name}
               className="capitalize hover:text-blue-600 transition duration-400 font-medium"
             >
-              <a href={item.href}>{item.name}</a>
+              <a
+                href={item.href}
+                className={`${isActive === item.href ? "text-blue-600" : ""}`}
+              >
+                {item.name}
+              </a>
             </li>
           ))}
         </ul>
+
         <button
           onClick={() => setIsOpen((prev) => !prev)}
           className="md:hidden text-gray-500 cursor-pointer z-50"

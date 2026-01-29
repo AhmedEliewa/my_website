@@ -50,7 +50,9 @@ const Home = () => {
             <img
               src={img}
               alt="my image"
-              className="object-cover cursor-pointer "
+              className="object-cover cursor-pointer"
+              fetchPriority="high"
+              decoding="async"
             />
           </motion.div>
           <motion.div
@@ -76,7 +78,10 @@ const Home = () => {
               Front-End Developer specializing in React & TypeScript
             </motion.p>
             <div className=" flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a className="cursor-pointer group capitalize py-3 px-6 flex items-center gap-2 font-medium bg-transparent text-black rounded-full border-2 border-black hover:bg-black hover:text-white transition-all duration-300">
+              <a
+                href="#projects"
+                className="cursor-pointer group capitalize py-3 px-6 flex items-center gap-2 font-medium bg-transparent text-black rounded-full border-2 border-black hover:bg-black hover:text-white transition-all duration-300"
+              >
                 view projects
                 <FaArrowRightLong
                   size={19}
@@ -101,7 +106,7 @@ const Home = () => {
               </a>
               <a
                 className="p-3 hover:text-blue-600 rounded-full bg-[#8ba1a14d] hover:shadow-black hover:shadow-xl hover:scale-110 transition duration-300"
-                href="https://www.linkedin.com/in/ahmed-eliewa-88b569387/"
+                href="https://www.linkedin.com/in/ahmed-eliewa16/"
                 target="_blank"
               >
                 <FaLinkedinIn size={19} />
