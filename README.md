@@ -1,73 +1,59 @@
-# React + TypeScript + Vite
+# 👋 Hi, I'm Ahmed Mohamed
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend Developer focused on building modern, responsive, and high-performance web applications using **React.js**.
 
-Currently, two official plugins are available:
+🌐 **Live Portfolio:**  
+[live demo](https://ahmed3liewa.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 screen shot
+<img src='./public/screenshots/home.jpg'  width="450" />
+<img src='./public/screenshots/projects.jpg'  width="450" />
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 About Me
+- Frontend Developer specialized in **React.js**
+- Strong interest in clean UI, reusable components, and scalable architecture
+- Focused on performance optimization and best practices
+- Continuously learning and improving modern web technologies
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tech Stack
+- **Languages:** HTML5, CSS3, JavaScript (ES6+)
+- **Frameworks & Libraries:** React.js, Redux Toolkit
+- **Styling:** Tailwind CSS, Material UI
+- **Build Tools:** Vite, Webpack
+- **Version Control:** Git, GitHub
+- **Animations:** Framer Motion
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📂 Featured Projects
+Some of the projects I’ve worked on:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🔹 Project Name
+- **Description:** Brief explanation of the problem and solution
+- **Tech Stack:** React, Tailwind CSS
+- **Live Demo:** Demo Link
+- **Repository:** GitHub Repo
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+> You can find more projects in my repositories section.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📫 Contact Me
+- **LinkedIn:** https://www.linkedin.com/in/ahmed-eliewa16/
+- **Email:** ahmedaboeliewa@gmail.com
+
+---
+
+⭐ If you find my work helpful, feel free to star my repositories.
+
+
+## Install dependencies    
+
+- npm install
+
+## Start development server
+- http://localhost:5173

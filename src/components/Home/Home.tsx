@@ -51,8 +51,8 @@ const Home = () => {
               src={img}
               alt="my image"
               className="object-cover cursor-pointer"
-              fetchPriority="high"
               decoding="async"
+              fetchPriority="high"
             />
           </motion.div>
           <motion.div
@@ -106,7 +106,7 @@ const Home = () => {
               </a>
               <a
                 className="p-3 hover:text-blue-600 rounded-full bg-[#8ba1a14d] hover:shadow-black hover:shadow-xl hover:scale-110 transition duration-300"
-                href="https://www.linkedin.com/in/ahmed-eliewa16/"
+                href="https://www.linkedin.com/in/ahmed-eliewa-88b569387/"
                 target="_blank"
               >
                 <FaLinkedinIn size={19} />
